@@ -5,7 +5,6 @@ export const FormContacts = styled.form`
   padding: 30px;
   width: 500px;
 `;
-
 export const InputLabel = styled.label`
   display: flex;
   flex-direction: column;

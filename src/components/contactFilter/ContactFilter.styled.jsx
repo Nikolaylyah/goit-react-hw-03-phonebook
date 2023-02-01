@@ -7,7 +7,6 @@ export const InputLabel = styled.label`
 
 export const FormInput = styled.input`
   margin-left: 20px;
-
   padding: 0.2rem 0.4rem;
   color: ${props => props.theme.colors.textColor};
   border: ${props => `1px solid ${props.theme.colors.borderColor}`};

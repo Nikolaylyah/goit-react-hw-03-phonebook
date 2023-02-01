@@ -9,7 +9,6 @@ function Section({ title, children }) {
     </Box>
   );
 }
-
 Section.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node,

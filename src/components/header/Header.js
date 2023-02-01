@@ -9,7 +9,6 @@ function Header({ title, children }) {
     </>
   );
 }
-
 Header.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node,

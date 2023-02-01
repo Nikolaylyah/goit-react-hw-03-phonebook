@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { InputLabel, FormInput } from './ContactFilter.styled';
-
 const ContactFilter = ({ value, onChange }) => {
   return (
     <InputLabel>

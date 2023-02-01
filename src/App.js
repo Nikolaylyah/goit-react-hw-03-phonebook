@@ -13,7 +13,6 @@ class App extends React.Component {
     contacts: [],
     filter: '',
   };
-
   isInContacts = ({ name, number }) => {
     const normalizedName = name.toLowerCase().replace(/\s+/g, '');
     const normalizedNumber = number.replace(/\D/g, '');
